@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    background-color:#a2d2ff;
+   /*background: linear-gradient(#a2d2ff, #efa2ff);*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    width: 100vw;
+}
+
+.nav{
+    width: 100vw;
+    background-color: #efa2ff;
+    height: 60px;
+}
+
+.ul{
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.2em;
+}
+
+.nav ul li a:hover{
+    text-decoration: none;
+    color: #dc57f7;
+    font-weight: bold;
+}
+
+.shop{
+    font-size: 1.5em;
+}
+
+/*****  CARDS  ******/
+
+#contenedor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    /*grid-template-rows: auto 1fr auto;*/
+    grid-gap: 15px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #dc57f7;
+    border: #dc57f7;
+}
+
+/******   FOOTER   ****/
+
+footer{
+    width: 100vw;
+    background-color: #a2d2ff;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p{
+    margin: 25px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #2d98fc;
+    font-weight: bold;
+}
+
+/***** contacto  ******/
+input{
+    margin: 10px;
+}
+
+form{
+    margin-left: 20px;
+    border: 1px solid gray;
+    width: 80%;
+    display: flex;
+}
