@@ -74,6 +74,11 @@ header{
     background-color: #ffa2eb;
 }
 
+.resenas{
+    margin-top: 50px;
+    display: grid;
+}
+
 /******   FOOTER   ****/
 
 footer{
