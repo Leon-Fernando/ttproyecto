@@ -7,7 +7,7 @@
 }
 
 header{
-    background-color:#a2d2ff;
+    background-color:#ffa2eb;
    /*background: linear-gradient(#a2d2ff, #efa2ff);*/
     display: flex;
     justify-content: space-evenly;
@@ -20,6 +20,7 @@ header{
     width: 100vw;
     background-color: #efa2ff;
     height: 60px;
+    border-top: 4px white solid;
 }
 
 .ul{
@@ -69,16 +70,20 @@ header{
     border: #dc57f7;
 }
 
+.btn-primary:hover{
+    background-color: #ffa2eb;
+}
+
 /******   FOOTER   ****/
 
 footer{
     width: 100vw;
-    background-color: #a2d2ff;
+    background-color: #ffa2eb;
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
-
+    margin-top: 15px;
 }
 
 footer p{
@@ -93,18 +98,31 @@ footer a{
 
 footer a:hover{
     text-decoration: none;
-    color: #2d98fc;
+    color: #ffa2eb;
     font-weight: bold;
 }
 
 /***** contacto  ******/
+
+.envia{
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
 input{
     margin: 10px;
 }
 
-form{
-    margin-left: 20px;
-    border: 1px solid gray;
-    width: 80%;
-    display: flex;
+.form{
+    padding: 20px;
+    border: 3px solid #dc57f7;
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.texta{
+    margin-top: 10px;
 }

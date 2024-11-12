@@ -13,19 +13,24 @@
 </head>
 <body>
     <header>
-        <h1>Contactános!</h1>
-        <nav>
-            <ul>
-                
-                <li><a href="index.html">Tienda</a></li>
-                <li><a href="como.html">Como Comprar</a></li>
-                <li><a href="somos.html">Quienes somos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="carrito.html">Carrito</a></li>
-            </ul>
-        </nav>
+        <img src="images/floremialogo.png" alt="logo flore mia" width="10%">
+        <h1>Catálogo Flore Mia</h1>
+        <fieldset class="buscar"> 
+            <label class="" for="buscar">Buscar</label>
+            <input type="search" id="buscar"/>
+       </fieldset>
     </header>
-    <form action="" method="POST">
+    <nav class="nav">
+        <ul class="ul">
+            <li><a href="index.html">Tienda</a></li>
+            <li><a href="como.html">Como Comprar</a></li>
+            <li><a href="somos.html">Quienes somos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#"><i class="shop fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </nav>
+    <h1 class="envia">Envianos tu consulta!</h1>
+    <form action="" method="POST" class="form">
         <label for="nombre">Nombre</label>
         <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
         <br>
@@ -47,15 +52,18 @@
         <label>Otro</label>
         <input type="checkbox" name="otro" id="otro" value="otro">
         <br>
-        <textarea placeholder="Escribe tu mensaje" rows="6" cols="50"></textarea>
+        <textarea placeholder="Escribe tu mensaje" rows="6" cols="50" class="texta"></textarea>
         <br>
-        <input type="submit" class=" btn btn-info">
+        <input type="submit" class=" btn btn-info btn-primary">
 
     </form>
     <footer>
-        <a href="https://www.instagram.com/flore.mia.detalles/" class="redes">Instagram</a>
-        <p>+54 9 11 5853 5085</p>
-        <p>Todos los derechos reservados</p>
+        
+        <a href="https://www.instagram.com/flore.mia.detalles/" class="insta"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        
+        <p><i class="fa-brands fa-whatsapp"></i>  <a href="https://wa.me/5491158535085" target="_blank">+54 9 11 5853 5085</a></p>
+        <p><i class="fa-regular fa-copyright"></i> Todos los derechos reservados</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
