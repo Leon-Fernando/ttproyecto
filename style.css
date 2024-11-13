@@ -164,6 +164,7 @@ input{
     margin-top: 10px;
 }
 
+/***** COMO COMPRAR  ****/
 .como{
     width: 80%;
     margin: auto;
@@ -172,3 +173,48 @@ input{
 .lorem{
     font-size: 1.2em;
 }
+
+/****   CELULAR  *****/
+@media only screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
+
+    .header{
+        background-color:#ffa2eb;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        width: 599px;
+        font-size: 0.8em;
+
+    }
+    
+    #contenedor{
+        /*padding-top: 15px;*/
+        /*padding-bottom: 15px;*/
+        width: 599px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;    
+        /*grid-template-rows: auto 1fr auto;*/
+        grid-gap: 5px;
+    }
+
+    .review{
+        width: 500px;
+        margin: auto;
+    
+    }
+    
+    .resenas{
+        width: 500px;
+        height: 300px;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+}}
