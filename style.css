@@ -176,6 +176,7 @@ input{
 }
 
 /****   CELULAR  *****/
+
 @media only screen and (max-width: 600px){
     body{
         background-color: red;
@@ -183,15 +184,11 @@ input{
 
     main{
         width: 100%;
-        /*display: flex;*/
     }
     
 
     .header{
-        background-color:#ffa2eb;
-        display: flex;
         flex-direction: column;
-        width: 100%;
         font-size: 0.6em;
     }
 
@@ -200,24 +197,33 @@ input{
         margin-bottom: 10px;
     }
 
+    #buscar{
+        width: 150px;
+    }
+
     .buscar{
-        width: 90%;
-        border: 1px solid red;
+        font-size: 1.3em;
+    }
+
+    .nav{
+        height: 70px;
+    }
+
+    .nav ul li a{
+        text-decoration: none;
+        color:black;
+        font-size: 1em;
     }
 
     #contenedor{
-        /*padding-top: 15px;*/
-        /*padding-bottom: 15px;*/
         width: 70%;
-        /*margin: auto;*/
         display: grid;
-        grid-template-columns: auto;    
-        /*grid-template-rows: auto 1fr auto;*/
+        grid-template-columns: auto;
+        justify-content: center;    
     }
 
     .review{
         width: 70%;
-        /*margin: auto;*/
     }
     
     .resenas{
@@ -226,7 +232,22 @@ input{
         margin-top: 40px;
         display: grid;
         grid-template-columns: auto;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-}}
+        justify-items: center;
+        gap: 5px;
+}
+
+footer{
+    width: 100vw;
+    background-color: #ffa2eb;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    /*justify-content: center;
+    align-items: center;*/
+    margin-top: 15px;
+}
+
+footer p{
+    margin: 5px;
+}
+}
