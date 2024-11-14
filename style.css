@@ -170,11 +170,12 @@ input{
 
 .lorem{
     font-size: 1.2em;
+    margin-top: 20px;
 }
 
 /****   CELULAR  *****/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 601px){
     main{
         width: 100%;
     }
@@ -263,6 +264,11 @@ footer p{
         width: 90%;
     }
 
+    .texta{
+    width: 90%;  
+}
+    .envia{margin-left: 25px;}
+
     .header img{
         width: 30%;
         margin-bottom: 10px;
@@ -275,4 +281,17 @@ footer p{
     .buscar{
         font-size: 1.3em;
     }
+
+    footer{
+    width: 100vw;
+    background-color: #ffa2eb;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    margin-top: 15px;
+}
+
+footer p{
+    margin: 5px;
+}
 }
