@@ -7,6 +7,7 @@ JavaScript.
 La idea de este proyecto es armar un catalogo con los productos de "Flore Mia", un emprendimiento de agendas y cuadernos.
 Esta dividida en "Tienda" como página principal, "Como comprar" con un lorem y un video, "Quienes somos" y "Contacto" con un formulario basico funcional.
 No esta optimizado para mobile 100%, le falta un poco.
-Use Bootstrap para los botones.
+Use Bootstrap para los botones ,cards y el nav.
 Las imágenes no estan optimizadas para web (pesan un poco)
-No llegué a hacer el menu hamburguesa
+Use sweet alert para el "Finalizar compra"
+Me hubiera gustado hacerla con mas tiempo pero mi trabajo no me dejo.

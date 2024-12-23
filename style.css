@@ -83,6 +83,16 @@
     background-color: #ffa2eb;
 }
 
+.btn-success{
+    background-color: #a90786;
+    border: #a90786;
+
+}
+
+.btn-success:hover{
+    background-color: black;
+}
+
 .review{
     width: 800px;
     margin: auto;

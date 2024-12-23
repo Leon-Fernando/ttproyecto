@@ -1,3 +1,4 @@
+
 const productosContainer = document.getElementById("productos-container");
   
     function fetchProductos() 
@@ -48,4 +49,3 @@ const productosContainer = document.getElementById("productos-container");
     }
 
     fetchProductos();
-  
