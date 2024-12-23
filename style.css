@@ -22,7 +22,7 @@
 
 @keyframes cambia-color{
     0%{color: black;}
-    50%{color: gray;}
+    50%{color: #dc57f7;}
     100%{color: white;}
 }
 
@@ -210,7 +210,8 @@ input{
     }
 
     .nav{
-        height: 70px;
+        height: 100%;
+        width: auto;
     }
 
     .nav ul li a{
